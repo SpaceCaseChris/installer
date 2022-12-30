@@ -1,14 +1,14 @@
 #!/bin/bash
-	
-# This bash script is used to install Mudpi
-# author: Eric Davisson @theDavisson <hi@ericdavisson.com>
-# license: MIT
 
-repo="mudpi/mudpi-core"
-repo_installer="mudpi/installer"
+# This is a forked installer -- NOT the original mudpi installer, and should not be used if you are setting up a production mudpi instance.
+# This is a convenience fork - the primary differences here are the repos used to install from for setting up an instance to test my own work more quickly.
+# Please use the official installer for that purpose: https://github.com/mudpi/installer
+
+repo="SpaceCaseChris/mudpi-core"
+repo_installer="SpaceCaseChris/mudpi-installer"
 repo_assistant="mudpi/assistant"
-repo_ui="mudpi/ui"
-branch="master"
+repo_ui="SpaceCaseChris/mudpi-ui"
+branch="main"
 mudpi_dir="/home/mudpi"
 webroot_dir="/var/www/html"
 mudpi_user="mudpi"

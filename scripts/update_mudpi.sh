@@ -1,7 +1,7 @@
 #!/bin/bash
 # Fetches latest files from github
-repo="mudpi/mudpi-core"
-branch="master"
+repo="SpaceCaseChris/mudpi-core"
+branch="main"
 mudpi_dir="/etc/mudpi"
 webroot_dir="/var/www/html"
 mudpi_user="www-data"
